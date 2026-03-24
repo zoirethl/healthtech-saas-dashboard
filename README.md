@@ -43,7 +43,7 @@ Tracks estimated vs actual implementation costs per account, cost efficiency per
 - `Cost Efficiency %` = `ROUND((Actual Cost / Estimated Cost) * 100, 1)`
 - `Budget Status` = CASE logic classifying accounts as On Budget, Over Budget, or In Progress
 - `Cost Variance` = `Estimated Cost - Actual Cost`
-
+![Page 1](screenshots/page1.jpg)
 ---
 
 ### Page 2 — Implementation Time Benchmarks
@@ -63,7 +63,7 @@ Separates implementation-phase hours from post-launch support hours — a critic
 - `Support Start Date` derived from RawData using `MINIFS` on earliest Phase 3 task date
 - `Months in Support` = `DATEDIF(Support Start Date, TODAY(), "M")`
 - `Total Subscription Revenue` = `Subscription × Months in Support`
-
+![Page 2](screenshots/page2.jpg)
 ---
 
 ### Page 3 — Executive / SaaS Metrics
@@ -89,7 +89,7 @@ Executive-level revenue health dashboard covering ARR, NRR, LTV, CAC, and upsell
 - Churned MRR: accounts whose Churn Effective Date falls in that month
 - Expansion MRR: sum of (New MRR - Previous MRR) for upsells in that month
 - NRR % = `(Starting MRR - Churned MRR + Expansion MRR) / Starting MRR`
-
+![Page 3](screenshots/page3.jpg)
 ---
 
 ### Page 4 — Team Performance
@@ -104,7 +104,7 @@ Individual and team-level analysis of the Customer Success team across Implement
 - Internal vs client hours per person — flags time allocation inefficiencies
 
 **Data source:** RawData with `Is Internal Task` field classifying Internal Meetings vs client-billable work.
-
+![Page 4](screenshots/page4.jpg)
 ---
 
 ## Data Sources & Architecture
