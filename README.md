@@ -166,4 +166,4 @@ All account names are anonymized using City + Number + Facility Type format. Fin
 ## Author
 
 **Zoireth Liendo** · Data & Revenue Operations Analyst  
-[Portfolio](https://zoirethl.github.io) · [GitHub](https://github.com/zoirethl)
+[Portfolio]([https://zoirethl.github.io](https://zoirethl.github.io/portfolio/projects-es/healthtech-implementation-es.html)) · [GitHub](https://github.com/zoirethl)
